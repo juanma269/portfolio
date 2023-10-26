@@ -5,10 +5,12 @@ import PhotoCameraTwoToneIcon from "@mui/icons-material/PhotoCameraTwoTone";
 import CoffeeIcon from "@mui/icons-material/Coffee";
 import AlbumIcon from "@mui/icons-material/Album";
 import EmojiNatureTwoToneIcon from "@mui/icons-material/EmojiNatureTwoTone";
+import MosqueTwoToneIcon from "@mui/icons-material/MosqueTwoTone";
 import {
   amber,
-  brown,
+  deepOrange,
   lightGreen,
+  orange,
   pink,
   purple,
   red,
@@ -31,7 +33,11 @@ const actions = [
     name: "Animales",
   },
   { icon: <AlbumIcon sx={{ color: amber[500] }} />, name: "Música" },
-  { icon: <CoffeeIcon sx={{ color: brown[900] }} />, name: "Café" },
+  {
+    icon: <MosqueTwoToneIcon sx={{ color: orange[800] }} />,
+    name: "Cultura árabe",
+  },
+  { icon: <CoffeeIcon sx={{ color: deepOrange[900] }} />, name: "Café" },
 ];
 const PlusButton = () => {
   return (
