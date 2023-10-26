@@ -5,15 +5,15 @@ const Home = () => {
   return (
     <Container maxWidth="fluid" id="homeApp">
       <Box className="sobreMi" id="sobreMi">
-        <Typography variant="h4" className="titlePage">
+        <Typography variant="h1" className="titlePage">
           Hola! Soy Juanma!
         </Typography>
 
         <Grid container spacing={0}>
           <Grid lg={9} sm={3} item bgcolor={"#333"} className="grid1y2">
             <Typography variant="h4" className="sobremiDescripcion">
-              Un programador frontend en crecimiento. Me gusta el crear, diseñar
-              y aprender cosas nuevas.
+              Un programador frontend en crecimiento. Me gusta crear, diseñar y
+              aprender cosas nuevas.
             </Typography>
             <Grid lg={1} sm={1}></Grid>
             <PlusButton />
