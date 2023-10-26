@@ -12,3 +12,13 @@ body {
   overflow: hidden;
   overflow-y: scroll;
 }
+/*boton scroll*/
+.top-btn-position {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  border-radius: 50%;
+}
+.top-btn-position:hover {
+  box-shadow: 0px 0px 30px #03a9f4;
+}

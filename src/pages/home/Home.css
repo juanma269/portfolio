@@ -1,0 +1,28 @@
+.sobreMi {
+  height: 930px;
+  background-color: lightblue;
+}
+.sobremiDescripcion {
+  padding: 90px 25px;
+  margin: 30rem;
+}
+.proyectos {
+  height: 930px;
+  background-color: lightcoral;
+}
+.contacto {
+  height: 930px;
+  background-color: lightpink;
+}
+.titlePage {
+  padding: 90px 25px;
+}
+.grid1y2 {
+  height: 500px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.profileImage {
+  height: 25rem;
+}
