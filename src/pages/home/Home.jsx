@@ -1,6 +1,5 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import PlusButton from "../../components/plusButton/plusButton";
-("../../components/plusButton/plusButton");
 import "./Home.css";
 const Home = () => {
   return (
