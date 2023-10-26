@@ -1,7 +1,7 @@
 import { SpeedDial, SpeedDialAction, SpeedDialIcon } from "@mui/material";
-import VideogameAssetOutlinedIcon from "@mui/icons-material/VideogameAssetOutlined";
+import SportsEsportsTwoToneIcon from "@mui/icons-material/SportsEsportsTwoTone";
 import CatchingPokemonTwoToneIcon from "@mui/icons-material/CatchingPokemonTwoTone";
-import PhotoCameraOutlinedIcon from "@mui/icons-material/PhotoCameraOutlined";
+import PhotoCameraTwoToneIcon from "@mui/icons-material/PhotoCameraTwoTone";
 import CoffeeIcon from "@mui/icons-material/Coffee";
 import AlbumIcon from "@mui/icons-material/Album";
 import EmojiNatureTwoToneIcon from "@mui/icons-material/EmojiNatureTwoTone";
@@ -19,11 +19,11 @@ const actions = [
     name: "Pokémon",
   },
   {
-    icon: <VideogameAssetOutlinedIcon sx={{ color: pink[500] }} />,
+    icon: <SportsEsportsTwoToneIcon sx={{ color: pink[500] }} />,
     name: "Videojuegos",
   },
   {
-    icon: <PhotoCameraOutlinedIcon sx={{ color: purple[500] }} />,
+    icon: <PhotoCameraTwoToneIcon sx={{ color: purple[500] }} />,
     name: "Fotografia",
   },
   {
