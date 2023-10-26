@@ -15,7 +15,6 @@ const Home = () => {
               Un programador frontend en crecimiento. Me gusta crear, diseñar y
               aprender cosas nuevas.
             </Typography>
-            <Grid lg={1} sm={1}></Grid>
             <PlusButton />
           </Grid>
           <Grid lg={3} sm={3} item bgcolor={"#3333"} className="grid1y2">
@@ -25,9 +24,28 @@ const Home = () => {
       </Box>
 
       <Box className="proyectos" id="proyectos">
-        <Typography variant="h4" className="titlePage">
+        <Typography variant="h2" className="titlePage">
           Proyectos
         </Typography>
+        <Grid container spacing={0}>
+          <Grid lg={4} sm={4} item bgcolor={"#4333"}>
+            <img
+              src="../public/icono.png"
+              alt="arabfolc"
+              className="proyimagen"
+            />
+          </Grid>
+          <Grid lg={4} sm={4} item bgcolor={"#4333"}>
+            <img src="../public/robyx.png" alt="robyx" className="proyimagen" />
+          </Grid>
+          <Grid lg={4} sm={4} item bgcolor={"#4333"}>
+            <img
+              src="../public/encriptado.png"
+              alt="encriptado"
+              className="proyimagen"
+            />
+          </Grid>
+        </Grid>
       </Box>
 
       <Box className="contacto" id="contacto">
