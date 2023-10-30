@@ -42,7 +42,7 @@ const actions = [
 const PlusButton = () => {
   return (
     <SpeedDial
-      ariaLabel="SpeedDial basic example"
+      ariaLabel="Mas de mi"
       sx={{
         position: "relative",
         bottom: "10px",
