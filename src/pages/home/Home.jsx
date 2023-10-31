@@ -3,6 +3,7 @@ import { Box, Container, Grid, Tooltip, Typography } from "@mui/material";
 import PlusButton from "../../components/plusButton/plusButton";
 import "./Home.css";
 import ContactButtonGroup from "../../components/contactButtonGroup/ContactButtonGroup";
+import KnowledgeButtonGroup from "../../components/knowledgeButtonGroup/KnowledgeButtonGroup";
 const Home = () => {
   return (
     <Container maxWidth="fluid" id="homeApp">
@@ -24,6 +25,9 @@ const Home = () => {
           <Grid lg={3} sm={3} item bgcolor={"#3333"} className="grid1y2">
             <img src="../public/juan.png" alt="Juan" className="profileImage" />
           </Grid>
+          <Box>
+            <KnowledgeButtonGroup />
+          </Box>
         </Grid>
       </Box>
 
@@ -58,7 +62,7 @@ const Home = () => {
         <Typography variant="h2" className="titlePage">
           Contacto
         </Typography>
-        <Box>
+        <Box marginLeft={"50rem"}>
           <ContactButtonGroup />
         </Box>
       </Box>
