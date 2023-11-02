@@ -2,46 +2,40 @@ import { Button, ButtonGroup } from "@mui/material";
 import HtmlIcon from "@mui/icons-material/Html";
 import CssIcon from "@mui/icons-material/Css";
 import JavascriptIcon from "@mui/icons-material/Javascript";
-import { green, indigo, red } from "@mui/material/colors";
+import { blue, deepOrange, grey, yellow } from "@mui/material/colors";
 
 const KnowledgeButtonGroup = () => {
   return (
-    <ButtonGroup variant="outlined" size="large" color="primary">
+    <ButtonGroup variant="outlined" size="large">
       <Button
         className="htmlbutton"
         sx={{
           ":hover": {
-            backgroundColor: indigo["100"],
+            backgroundColor: deepOrange["A400"],
           },
         }}
       >
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          <HtmlIcon fontSize="large" sx={{ color: indigo["900"] }} />
-        </a>
+        <HtmlIcon fontSize="large" sx={{ color: grey["A100"] }} />
       </Button>
       <Button
         className="cssbutton"
         sx={{
           ":hover": {
-            backgroundColor: green["100"],
+            backgroundColor: blue["900"],
           },
         }}
       >
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          <CssIcon fontSize="large" sx={{ color: green["A700"] }} />
-        </a>
+        <CssIcon fontSize="large" sx={{ color: grey["A100"] }} />
       </Button>
       <Button
         className="jsbutton"
         sx={{
           ":hover": {
-            backgroundColor: red["100"],
+            backgroundColor: yellow["A200"],
           },
         }}
       >
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          <JavascriptIcon fontSize="large" sx={{ color: red["600"] }} />
-        </a>
+        <JavascriptIcon fontSize="large" sx={{ color: grey["A100"] }} />
       </Button>
     </ButtonGroup>
   );
