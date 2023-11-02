@@ -1,50 +1,145 @@
 #homeApp {
   margin: 0;
   padding: 0;
+  background: linear-gradient(to right, #27417d, #111c33);
 }
-.sobreMi {
-  height: 930px;
-  background-color: lightblue;
+@media (min-width: 845px) {
+  .sobreMi {
+    height: 930px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedorSobreMi {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #10110c;
+  }
+  .sobremiDescripcion {
+    padding: 3rem;
+    margin: 30rem;
+  }
+  .sobremiDescripcion2 {
+    padding: 3rem;
+    margin: 30rem;
+  }
+  .sobreMiFotoDiv {
+    background: #10110c;
+    width: 100%;
+  }
+  .proyectos {
+    height: 930px;
+  }
+  .contacto {
+    height: 465;
+  }
+  .titlePage {
+    padding: 90px 25px;
+  }
+  .fotoPerfil {
+    height: 30rem;
+    margin: 3rem;
+    margin-left: 15rem;
+    box-shadow: 0 5px 50px 0 rgb(3, 169, 244);
+    border-radius: 1000px;
+  }
+
+  .conocimientos {
+    margin-left: 22rem;
+
+    align-self: "center";
+  }
+
+  .proyimagen {
+    height: 20rem;
+    margin: 5rem;
+    border-radius: 1000px;
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(121, 75, 9, 1) 35%,
+      rgba(255, 141, 0, 1) 100%
+    );
+  }
+  .proyimagen:hover {
+    cursor: pointer;
+    box-shadow: 0 6px 20px 0 rgb(255, 255, 255);
+  }
+  .divGrupoDeBotones {
+    margin-left: 18rem;
+  }
 }
-.sobremiDescripcion {
-  padding: 90px 25px;
-  margin: 30rem;
-}
-.proyectos {
-  height: 930px;
-  background-color: lightcoral;
-}
-.contacto {
-  height: 465;
-  background-color: rgb(0, 0, 0);
-}
-.titlePage {
-  padding: 90px 25px;
-}
-.grid1y2 {
-  height: 500px;
-  display: flex;
-  align-content: center;
-  align-items: center;
-}
-.profileImage {
-  height: 25rem;
-  box-shadow: 0 6px 20px 0 rgb(3, 169, 244);
-  border-radius: 1000px;
-}
-.proyimagen {
-  height: 20rem;
-  margin: 5rem;
-  border-radius: 1000px;
-  background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(121, 75, 9, 1) 35%,
-    rgba(255, 141, 0, 1) 100%
-  );
-}
-.proyimagen:hover {
-  cursor: pointer;
-  box-shadow: 0 6px 20px 0 rgb(255, 255, 255);
+
+/*media*/
+@media (max-width: 845px) {
+  #homeApp {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  .contendedorSobreMi {
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  .divDescripcion {
+    flex-direction: column;
+  }
+  .sobreMi {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sobremiDescripcion {
+    padding: 45px 25px;
+    margin: 30rem;
+    font-size: 1.5rem;
+  }
+  .sobremiDescripcion2 {
+    padding-left: 3rem;
+  }
+  .proyectos {
+    height: 100%;
+  }
+  .contacto {
+    height: 465;
+  }
+  .titlePage {
+    padding: 4rem;
+    margin-left: 8rem;
+  }
+  .fotoPerfil {
+    height: 18rem;
+    margin: 3rem;
+    box-shadow: 0 6px 20px 0 rgb(3, 169, 244);
+    border-radius: 1000px;
+  }
+
+  .conocimientos {
+    margin-left: 5rem;
+
+    align-self: "center";
+  }
+  .proyimagen {
+    height: 10rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 1000px;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(121, 75, 9, 1) 35%,
+      rgba(255, 141, 0, 1) 100%
+    );
+  }
+  .proyimagen:hover {
+    cursor: pointer;
+    box-shadow: 0 6px 20px 0 rgb(255, 255, 255);
+  }
+  .divGrupoDeBotones {
+    width: 100%;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+  }
 }
