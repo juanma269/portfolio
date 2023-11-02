@@ -44,10 +44,8 @@ const PlusButton = () => {
     <SpeedDial
       ariaLabel="Mas de mi"
       sx={{
-        position: "relative",
-        bottom: "10px",
-        top: "150px",
-        right: "950px",
+        position: "inherit",
+        marginLeft: "5rem",
       }}
       direction="right"
       icon={<SpeedDialIcon />}
